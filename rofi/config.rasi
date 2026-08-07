@@ -1,0 +1,87 @@
+/**
+ * Custom theme based on Rofi 2.0.0 default
+ * Colors matched to Polybar/i3 theme
+ **/
+
+* {
+    background:                  rgba(0, 9, 13, 53%);
+    foreground:                  rgba(217, 195, 169, 100%);
+
+    normal-background:           rgba(0, 9, 13, 53%);
+    normal-foreground:           rgba(217, 195, 169, 100%);
+
+    alternate-normal-background: rgba(0, 9, 13, 53%);
+    alternate-normal-foreground: rgba(217, 195, 169, 100%);
+
+    selected-normal-background:  rgba(38, 38, 29, 53%);
+    selected-normal-foreground:  rgba(217, 195, 169, 100%);
+
+    active-background:           rgba(0, 9, 13, 53%);
+    active-foreground:           rgba(140, 119, 93, 100%);
+
+    selected-active-background:  rgba(140, 119, 93, 100%);
+    selected-active-foreground:  rgba(0, 9, 13, 100%);
+
+    urgent-background:           rgba(0, 9, 13, 53%);
+    urgent-foreground:           rgba(165, 66, 66, 100%);
+
+    selected-urgent-background:  rgba(165, 66, 66, 100%);
+    selected-urgent-foreground:  rgba(217, 195, 169, 100%);
+
+    separatorcolor:              rgba(112, 120, 128, 100%);
+    border-color:                rgba(217, 195, 169, 100%);
+
+    font: "AdwaitaMono Nerd Font 11";
+
+    spacing: 2;
+}
+
+
+element {
+    text-color: #D9C3A9;
+}
+
+element normal.normal {
+    text-color: #D9C3A9;
+}
+
+element alternate.normal {
+    text-color: #D9C3A9;
+}
+
+element selected.normal {
+    background-color: #26261D;
+    text-color: #D9C3A9;
+}
+
+element-text {
+    text-color: #D9C3A9;
+}
+
+element-text selected {
+    text-color: #D9C3A9;
+}
+
+window {
+    background-color: rgba(0, 9, 13, 75%);
+    border-color: #D9C3A9;
+}
+
+inputbar {
+    text-color: #D9C3A9;
+}
+
+entry {
+    text-color: #D9C3A9;
+    placeholder-color: #707880;
+}
+
+prompt {
+    text-color: #8C775D;
+}
+
+
+listview {
+    spacing: 2px;
+    scrollbar: true;
+}
