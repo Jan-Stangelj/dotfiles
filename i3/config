@@ -190,7 +190,7 @@ exec polybar
 exec_always xrandr --rate 180
 
 # apply wallpaper
-exec_always feh --bg-fill ~/Pictures/bg.png
+exec_always feh --bg-fill ~/dotfiles/bg.png
 
 # Window colors
 client.focused          #FFD9C3A9 #FFD9C3A9 #FFD9C3A9 #FFD9C3A9 #FFD9C3A9

@@ -1,0 +1,10 @@
+{
+  "lastChangelogVersion": "0.85.1",
+  "theme": "dark",
+  "defaultProvider": "llama.cpp",
+  "defaultModel": "qwen3.8",
+  "packages": [
+    "npm:pi-web-access",
+    "npm:pi-lens"
+  ]
+}

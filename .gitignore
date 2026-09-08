@@ -1,0 +1,4 @@
+# pi agent: local state, never track
+pi/web-search-cache/
+pi/agent/sessions/
+pi/agent/auth.json
