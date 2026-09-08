@@ -6,7 +6,7 @@
         "name": "qwen3.6",
         "api": "openai-completions",
         "provider": "llama.cpp",
-        "baseUrl": "http://127.0.0.1:8080/v1",
+        "baseUrl": "http://192.168.1.5:8080/v1",
         "reasoning": false,
         "input": [
           "text"
@@ -17,8 +17,8 @@
           "cacheRead": 0,
           "cacheWrite": 0
         },
-        "contextWindow": 128000,
-        "maxTokens": 128000,
+        "contextWindow": 256000,
+        "maxTokens": 256000,
         "compat": {
           "supportsStore": false,
           "supportsDeveloperRole": false,
@@ -33,7 +33,7 @@
         "name": "qwen3.8",
         "api": "openai-completions",
         "provider": "llama.cpp",
-        "baseUrl": "http://127.0.0.1:8080/v1",
+        "baseUrl": "http://192.168.1.5:8080/v1",
         "reasoning": false,
         "input": [
           "text"
@@ -56,6 +56,6 @@
         }
       }
     ],
-    "checkedAt": 1788873498840
+    "checkedAt": 1788878179833
   }
 }
