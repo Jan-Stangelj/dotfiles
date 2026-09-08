@@ -2,3 +2,4 @@
 pi/web-search-cache/
 pi/agent/sessions/
 pi/agent/auth.json
+pi/agent/models-store.json
