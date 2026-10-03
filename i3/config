@@ -46,7 +46,7 @@ bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +25%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 25%-
 
 # Default brightness at startup
-exec_always --no-startup-id brightnessctl set 50%
+exec_always --no-startup-id brightnessctl set 100%
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
