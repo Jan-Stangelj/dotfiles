@@ -217,3 +217,8 @@ gaps outer 0
 
 # Compositor for transparency
 exec --no-startup-id picom
+
+exec --no-startup-id xss-lock --transfer-sleep-lock -- ~/.config/i3/lock.sh
+
+bindsym $mod+Delete exec --no-startup-id ~/.config/i3/lock.sh
+
