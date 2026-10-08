@@ -6,7 +6,8 @@ DOTFILES_DIR="$HOME/dotfiles"
 # Folders in ~/.config to symlink (repo name == home name)
 config_folders=(i3 picom polybar rofi alacritty)
 
-# Helper: replace an existing symlink, or create a new one, pointing at src
+# Helper: replace an existing symlink, or create a new one,
+# pointing at src
 link() {
     local src="$1"
     local dst="$2"
@@ -38,5 +39,13 @@ done
 
 # Symlink ~ folders where repo name != home name
 link "$DOTFILES_DIR/pi" "$HOME/.pi"
+
+# Symlink VSCodium settings
+mkdir -p "$HOME/.config/VSCodium/User"
+link "$DOTFILES_DIR/vscodium-settings.json" \
+     "$HOME/.config/VSCodium/User/settings.json"
+
+# Install VSCodium extensions
+xargs -r -n 1 codium --install-extension < vscodium-extensions.txt
 
 echo "Done."

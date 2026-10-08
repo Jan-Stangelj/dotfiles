@@ -1,0 +1,6 @@
+antaalt.shader-validator
+kylinideteam.cmake-intellisence
+kylinideteam.cppdebug
+kylinideteam.kylin-cmake-tools
+llvm-vs-code-extensions.vscode-clangd
+sr-team.vscode-clangd-cmake

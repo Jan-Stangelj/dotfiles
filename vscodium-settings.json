@@ -1,0 +1,10 @@
+{
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "cmake.showConfigureWithDebuggerNotification": false,
+    "workbench.colorTheme": "Dark Modern",
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 15,
+    "editor.fontFamily": "'AdwaitaMono Nerd Font', monospace",
+    "terminal.integrated.fontFamily": "'AdwaitaMono Nerd Font', monospace"
+}
