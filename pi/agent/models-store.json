@@ -2,14 +2,23 @@
   "llama.cpp": {
     "models": [
       {
-        "id": "qwen3.6",
-        "name": "qwen3.6",
+        "id": "Qwen3.8-27B-GSQ-RCO-IQ3_S.gguf",
+        "name": "Qwen3.8-27B-GSQ-RCO-IQ3_S.gguf",
         "api": "openai-completions",
         "provider": "llama.cpp",
-        "baseUrl": "http://192.168.1.5:8080/v1",
-        "reasoning": false,
+        "baseUrl": "http://127.0.0.1:8080/v1",
+        "reasoning": true,
+        "thinkingLevelMap": {
+          "off": "off",
+          "minimal": null,
+          "low": null,
+          "medium": "medium",
+          "high": null,
+          "xhigh": null
+        },
         "input": [
-          "text"
+          "text",
+          "image"
         ],
         "cost": {
           "input": 0,
@@ -17,8 +26,37 @@
           "cacheRead": 0,
           "cacheWrite": 0
         },
-        "contextWindow": 128000,
-        "maxTokens": 128000,
+        "contextWindow": 98304,
+        "maxTokens": 98304,
+        "compat": {
+          "supportsStore": false,
+          "supportsDeveloperRole": false,
+          "supportsReasoningEffort": false,
+          "supportsUsageInStreaming": true,
+          "supportsStrictMode": false,
+          "maxTokensField": "max_tokens",
+          "thinkingFormat": "qwen-chat-template"
+        }
+      },
+      {
+        "id": "gemma-4-26B_q4_0-it-qat.gguf",
+        "name": "gemma-4-26B_q4_0-it-qat.gguf",
+        "api": "openai-completions",
+        "provider": "llama.cpp",
+        "baseUrl": "http://127.0.0.1:8080/v1",
+        "reasoning": false,
+        "input": [
+          "text",
+          "image"
+        ],
+        "cost": {
+          "input": 0,
+          "output": 0,
+          "cacheRead": 0,
+          "cacheWrite": 0
+        },
+        "contextWindow": 65536,
+        "maxTokens": 65536,
         "compat": {
           "supportsStore": false,
           "supportsDeveloperRole": false,
@@ -29,12 +67,12 @@
         }
       },
       {
-        "id": "qwen3.8",
-        "name": "qwen3.8",
-        "api": "openai-completions",
+        "type": "classifier",
+        "id": "Qwen3.8-27B-GSQ-RCO-IQ3_S.gguf",
+        "name": "Qwen3.8-27B-GSQ-RCO-IQ3_S.gguf",
+        "api": "llama-cpp-classify",
         "provider": "llama.cpp",
-        "baseUrl": "http://192.168.1.5:8080/v1",
-        "reasoning": false,
+        "baseUrl": "http://127.0.0.1:8080",
         "input": [
           "text"
         ],
@@ -44,18 +82,27 @@
           "cacheRead": 0,
           "cacheWrite": 0
         },
-        "contextWindow": 128000,
-        "maxTokens": 128000,
-        "compat": {
-          "supportsStore": false,
-          "supportsDeveloperRole": false,
-          "supportsReasoningEffort": false,
-          "supportsUsageInStreaming": true,
-          "supportsStrictMode": false,
-          "maxTokensField": "max_tokens"
-        }
+        "contextWindow": 98304
+      },
+      {
+        "type": "classifier",
+        "id": "gemma-4-26B_q4_0-it-qat.gguf",
+        "name": "gemma-4-26B_q4_0-it-qat.gguf",
+        "api": "llama-cpp-classify",
+        "provider": "llama.cpp",
+        "baseUrl": "http://127.0.0.1:8080",
+        "input": [
+          "text"
+        ],
+        "cost": {
+          "input": 0,
+          "output": 0,
+          "cacheRead": 0,
+          "cacheWrite": 0
+        },
+        "contextWindow": 65536
       }
     ],
-    "checkedAt": 1788978270671
+    "checkedAt": 1791647965555
   }
 }

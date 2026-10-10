@@ -2,9 +2,9 @@
   "lastChangelogVersion": "1.1.0",
   "theme": "dark",
   "defaultProvider": "llama.cpp",
-  "defaultModel": "qwen3.8",
+  "defaultModel": "Qwen3.8-27B-GSQ-RCO-IQ3_S.gguf",
   "packages": [
-    "npm:pi-web-access",
-    "npm:pi-lens"
-  ]
+    "npm:pi-web-access"
+  ],
+  "enableInstallTelemetry": false
 }
