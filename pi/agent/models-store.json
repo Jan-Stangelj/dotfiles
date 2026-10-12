@@ -7,43 +7,6 @@
         "api": "openai-completions",
         "provider": "llama.cpp",
         "baseUrl": "http://127.0.0.1:8080/v1",
-        "reasoning": true,
-        "thinkingLevelMap": {
-          "off": "off",
-          "minimal": null,
-          "low": null,
-          "medium": "medium",
-          "high": null,
-          "xhigh": null
-        },
-        "input": [
-          "text",
-          "image"
-        ],
-        "cost": {
-          "input": 0,
-          "output": 0,
-          "cacheRead": 0,
-          "cacheWrite": 0
-        },
-        "contextWindow": 98304,
-        "maxTokens": 98304,
-        "compat": {
-          "supportsStore": false,
-          "supportsDeveloperRole": false,
-          "supportsReasoningEffort": false,
-          "supportsUsageInStreaming": true,
-          "supportsStrictMode": false,
-          "maxTokensField": "max_tokens",
-          "thinkingFormat": "qwen-chat-template"
-        }
-      },
-      {
-        "id": "gemma-4-26B_q4_0-it-qat.gguf",
-        "name": "gemma-4-26B_q4_0-it-qat.gguf",
-        "api": "openai-completions",
-        "provider": "llama.cpp",
-        "baseUrl": "http://127.0.0.1:8080/v1",
         "reasoning": false,
         "input": [
           "text",
@@ -55,8 +18,8 @@
           "cacheRead": 0,
           "cacheWrite": 0
         },
-        "contextWindow": 65536,
-        "maxTokens": 65536,
+        "contextWindow": 100000,
+        "maxTokens": 100000,
         "compat": {
           "supportsStore": false,
           "supportsDeveloperRole": false,
@@ -82,27 +45,9 @@
           "cacheRead": 0,
           "cacheWrite": 0
         },
-        "contextWindow": 98304
-      },
-      {
-        "type": "classifier",
-        "id": "gemma-4-26B_q4_0-it-qat.gguf",
-        "name": "gemma-4-26B_q4_0-it-qat.gguf",
-        "api": "llama-cpp-classify",
-        "provider": "llama.cpp",
-        "baseUrl": "http://127.0.0.1:8080",
-        "input": [
-          "text"
-        ],
-        "cost": {
-          "input": 0,
-          "output": 0,
-          "cacheRead": 0,
-          "cacheWrite": 0
-        },
-        "contextWindow": 65536
+        "contextWindow": 100000
       }
     ],
-    "checkedAt": 1791647965555
+    "checkedAt": 1791718555009
   }
 }
