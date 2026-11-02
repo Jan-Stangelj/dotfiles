@@ -2,7 +2,6 @@
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "none",
     "cmake.showConfigureWithDebuggerNotification": false,
-    "workbench.colorTheme": "Dark Modern",
     "files.autoSave": "afterDelay",
     "editor.fontSize": 15,
     "editor.fontFamily": "'AdwaitaMono Nerd Font', monospace",
@@ -14,6 +13,11 @@
     "cmake.modifyLists.addNewSourceFiles": "no",
     "clangd.arguments": [
         "--header-insertion=never"
-    ]
+    ],
+    "shader-validator.glsl.targetClient": "OpenGL450",
+    "editor.minimap.enabled": false,
+    "shader-validator.glsl.spirvVersion": "None",
+    "explorer.confirmDragAndDrop": false,
+    "workbench.colorTheme": "Dark Modern"
 
 }

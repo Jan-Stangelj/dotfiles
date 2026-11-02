@@ -6,7 +6,7 @@
         "name": "Qwen3.8-27B-GSQ-RCO-IQ3_S.gguf",
         "api": "openai-completions",
         "provider": "llama.cpp",
-        "baseUrl": "http://127.0.0.1:8080/v1",
+        "baseUrl": "http://127.0.0.1:9931/v1",
         "reasoning": false,
         "input": [
           "text",
@@ -30,12 +30,40 @@
         }
       },
       {
+        "id": "Qwen3.8-Flash-Next-GSQ-RCO-IQ3_XXS.gguf",
+        "name": "Qwen3.8-Flash-Next-GSQ-RCO-IQ3_XXS.gguf",
+        "api": "openai-completions",
+        "provider": "llama.cpp",
+        "baseUrl": "http://127.0.0.1:9931/v1",
+        "reasoning": false,
+        "input": [
+          "text",
+          "image"
+        ],
+        "cost": {
+          "input": 0,
+          "output": 0,
+          "cacheRead": 0,
+          "cacheWrite": 0
+        },
+        "contextWindow": 65536,
+        "maxTokens": 65536,
+        "compat": {
+          "supportsStore": false,
+          "supportsDeveloperRole": false,
+          "supportsReasoningEffort": false,
+          "supportsUsageInStreaming": true,
+          "supportsStrictMode": false,
+          "maxTokensField": "max_tokens"
+        }
+      },
+      {
         "type": "classifier",
         "id": "Qwen3.8-27B-GSQ-RCO-IQ3_S.gguf",
         "name": "Qwen3.8-27B-GSQ-RCO-IQ3_S.gguf",
         "api": "llama-cpp-classify",
         "provider": "llama.cpp",
-        "baseUrl": "http://127.0.0.1:8080",
+        "baseUrl": "http://127.0.0.1:9931",
         "input": [
           "text"
         ],
@@ -46,8 +74,26 @@
           "cacheWrite": 0
         },
         "contextWindow": 100000
+      },
+      {
+        "type": "classifier",
+        "id": "Qwen3.8-Flash-Next-GSQ-RCO-IQ3_XXS.gguf",
+        "name": "Qwen3.8-Flash-Next-GSQ-RCO-IQ3_XXS.gguf",
+        "api": "llama-cpp-classify",
+        "provider": "llama.cpp",
+        "baseUrl": "http://127.0.0.1:9931",
+        "input": [
+          "text"
+        ],
+        "cost": {
+          "input": 0,
+          "output": 0,
+          "cacheRead": 0,
+          "cacheWrite": 0
+        },
+        "contextWindow": 65536
       }
     ],
-    "checkedAt": 1792057566434
+    "checkedAt": 1793277718179
   }
 }
