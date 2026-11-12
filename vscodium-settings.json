@@ -3,7 +3,7 @@
     "workbench.startupEditor": "none",
     "cmake.showConfigureWithDebuggerNotification": false,
     "files.autoSave": "afterDelay",
-    "editor.fontSize": 15,
+    "editor.fontSize": 11,
     "editor.fontFamily": "'AdwaitaMono Nerd Font', monospace",
     "terminal.integrated.fontFamily": "'AdwaitaMono Nerd Font', monospace",
     "terminal.integrated.initialHint": false,
@@ -18,6 +18,18 @@
     "editor.minimap.enabled": false,
     "shader-validator.glsl.spirvVersion": "None",
     "explorer.confirmDragAndDrop": false,
-    "workbench.colorTheme": "Dark Modern"
+    "workbench.colorTheme": "Dark Modern",
+    "workbench.experimental.fontSize": 11,
+    "workbench.sideBar.experimental.fontSize": 11,
+    "workbench.statusBar.experimental.fontSize": 11,
+    "workbench.tabs.experimental.fontSize": 11,
+    "workbench.activityBar.experimental.fontSize": 11,
+    "chat.editor.fontSize": 11,
+    "chat.fontSize": 11,
+    "debug.console.fontSize": 11,
+    "scm.inputFontSize": 11,
+    "terminal.integrated.fontSize": 11,
+    "markdown.preview.fontSize": 11,
+    "workbench.bottomPane.experimental.fontSize": 11
 
 }

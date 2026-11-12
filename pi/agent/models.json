@@ -3,7 +3,7 @@
   "providers": {
     "llama.cpp": {
       "modelOverrides": {
-        "Qwen3.8-27B-GSQ-RCO-IQ3_S.gguf": {
+        "Qwen3.8-27B-UD-IQ4_XS.gguf": {
           "reasoning": true,
           "thinkingLevelMap": {
             "off": "off",
@@ -23,23 +23,24 @@
             }
           }
         },
-        "Qwen3.8-Flash-Next-GSQ-RCO-IQ3_XXS.gguf": {
+        "Muse-Glimmer-30B-heretic-IQ4_XS.gguf": {
           "reasoning": true,
           "thinkingLevelMap": {
-            "off": "off",
+            "off": null,
             "minimal": null,
             "low": "low",
             "medium": "medium",
-            "high": null,
+            "high": "high",
             "xhigh": "xhigh",
             "max": null
           },
           "compat": {
             "thinkingFormat": "chat-template",
             "chatTemplateKwargs": {
-              "enable_thinking": { "$var": "thinking.enabled" },
-              "preserve_thinking": true,
-              "reasoning_effort": { "$var": "thinking.effort", "omitWhenOff": true }
+              "reasoning_strength": {
+                "$var": "thinking.effort",
+                "omitWhenOff": true
+              }
             }
           }
         }

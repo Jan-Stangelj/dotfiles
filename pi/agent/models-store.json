@@ -2,15 +2,14 @@
   "llama.cpp": {
     "models": [
       {
-        "id": "Qwen3.8-27B-GSQ-RCO-IQ3_S.gguf",
-        "name": "Qwen3.8-27B-GSQ-RCO-IQ3_S.gguf",
+        "id": "Muse-Glimmer-30B-heretic-IQ4_XS.gguf",
+        "name": "Muse-Glimmer-30B-heretic-IQ4_XS.gguf",
         "api": "openai-completions",
         "provider": "llama.cpp",
         "baseUrl": "http://127.0.0.1:9931/v1",
         "reasoning": false,
         "input": [
-          "text",
-          "image"
+          "text"
         ],
         "cost": {
           "input": 0,
@@ -18,8 +17,8 @@
           "cacheRead": 0,
           "cacheWrite": 0
         },
-        "contextWindow": 100000,
-        "maxTokens": 100000,
+        "contextWindow": 131072,
+        "maxTokens": 131072,
         "compat": {
           "supportsStore": false,
           "supportsDeveloperRole": false,
@@ -30,8 +29,8 @@
         }
       },
       {
-        "id": "Qwen3.8-Flash-Next-GSQ-RCO-IQ3_XXS.gguf",
-        "name": "Qwen3.8-Flash-Next-GSQ-RCO-IQ3_XXS.gguf",
+        "id": "Qwen3.8-27B-UD-IQ4_XS.gguf",
+        "name": "Qwen3.8-27B-UD-IQ4_XS.gguf",
         "api": "openai-completions",
         "provider": "llama.cpp",
         "baseUrl": "http://127.0.0.1:9931/v1",
@@ -59,8 +58,8 @@
       },
       {
         "type": "classifier",
-        "id": "Qwen3.8-27B-GSQ-RCO-IQ3_S.gguf",
-        "name": "Qwen3.8-27B-GSQ-RCO-IQ3_S.gguf",
+        "id": "Muse-Glimmer-30B-heretic-IQ4_XS.gguf",
+        "name": "Muse-Glimmer-30B-heretic-IQ4_XS.gguf",
         "api": "llama-cpp-classify",
         "provider": "llama.cpp",
         "baseUrl": "http://127.0.0.1:9931",
@@ -73,12 +72,12 @@
           "cacheRead": 0,
           "cacheWrite": 0
         },
-        "contextWindow": 100000
+        "contextWindow": 131072
       },
       {
         "type": "classifier",
-        "id": "Qwen3.8-Flash-Next-GSQ-RCO-IQ3_XXS.gguf",
-        "name": "Qwen3.8-Flash-Next-GSQ-RCO-IQ3_XXS.gguf",
+        "id": "Qwen3.8-27B-UD-IQ4_XS.gguf",
+        "name": "Qwen3.8-27B-UD-IQ4_XS.gguf",
         "api": "llama-cpp-classify",
         "provider": "llama.cpp",
         "baseUrl": "http://127.0.0.1:9931",
@@ -94,6 +93,6 @@
         "contextWindow": 65536
       }
     ],
-    "checkedAt": 1793277718179
+    "checkedAt": 1794155143159
   }
 }

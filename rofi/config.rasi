@@ -31,9 +31,9 @@
     separatorcolor:              rgba(112, 120, 128, 100%);
     border-color:                rgba(217, 195, 169, 100%);
 
-    font: "AdwaitaMono Nerd Font 11";
+    font: "AdwaitaMono Nerd Font 9";
 
-    spacing: 2;
+    spacing: 1;
 }
 
 
@@ -82,6 +82,6 @@ prompt {
 
 
 listview {
-    spacing: 2px;
-    scrollbar: true;
+    spacing: 1px;
+    scrollbar: false;
 }
