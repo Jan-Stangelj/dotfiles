@@ -22,27 +22,6 @@
               "reasoning_effort": { "$var": "thinking.effort", "omitWhenOff": true }
             }
           }
-        },
-        "Muse-Glimmer-30B-heretic-IQ4_XS.gguf": {
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "off": null,
-            "minimal": null,
-            "low": "low",
-            "medium": "medium",
-            "high": "high",
-            "xhigh": "xhigh",
-            "max": null
-          },
-          "compat": {
-            "thinkingFormat": "chat-template",
-            "chatTemplateKwargs": {
-              "reasoning_strength": {
-                "$var": "thinking.effort",
-                "omitWhenOff": true
-              }
-            }
-          }
         }
       }
     }

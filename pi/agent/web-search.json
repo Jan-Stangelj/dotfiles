@@ -1,0 +1,11 @@
+{
+  "provider": "auto",
+  "searxngBaseUrl": "https://server.tail2f4a5d.ts.net",
+  "workflow": "summary-review",
+  "summaryModel": "current",
+  "queryRewriteModel": "current",
+  "ssrf": {
+    "allowRanges": ["100.90.139.71/32"]
+  }
+}
+

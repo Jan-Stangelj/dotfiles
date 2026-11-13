@@ -1,14 +1,14 @@
 {
-  "lastChangelogVersion": "1.5.0",
+  "lastChangelogVersion": "1.5.2",
   "theme": "dark",
   "defaultProvider": "llama.cpp",
-  "defaultModel": "Muse-Glimmer-30B-heretic-IQ4_XS.gguf",
+  "defaultModel": "Qwen3.8-27B-UD-IQ4_XS.gguf",
   "packages": [
     "npm:pi-web-access"
   ],
   "enableInstallTelemetry": false,
-  "defaultThinkingLevel": "xhigh",
+  "defaultThinkingLevel": "medium",
   "extensionChangelogVersions": {
-    "{\"source\":\"npm:pi-web-access\",\"scope\":\"user\"}": "0.39.0"
+    "{\"source\":\"npm:pi-web-access\",\"scope\":\"user\"}": "0.47.0"
   }
 }
